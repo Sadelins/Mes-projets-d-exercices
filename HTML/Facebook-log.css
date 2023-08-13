@@ -1,0 +1,193 @@
+body{
+    background-color: gainsboro;
+  /*  font-size:10em;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size:15px;
+}
+
+
+
+img{
+    height: 100px;
+
+}
+
+h2{
+    color:gray;
+    font-size: 36px;
+
+}
+.phrs{
+    font-size:35px;
+    margin-top: -30px;
+}
+
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.cont-ph{
+    margin-top: 199px;
+    margin-left: 100px;
+    float: left;
+    font-size: 100px;
+    
+}
+.phr{margin-top: 600px;
+    float: right;
+    margin-left: 45px;
+    
+}
+
+hr{
+    width: 398px;
+}
+
+
+
+.login{
+    margin-top: -30px;
+    padding-top: 15px;
+    font-size: 20px;
+    background-color: white;
+    width: 400px;
+    height: 325px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+
+
+.txt{
+    margin-right: 100px;
+    margin-top: 150px;
+    padding-top: 30px;
+    float: right;
+   
+   
+}
+
+
+
+input{
+    text-align: left;
+    margin-bottom: 7px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 5px;
+    width: 350px;
+    height: 40px;
+}
+
+
+input[type="submit"]{
+   background-color: blue;
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   text-align: center;
+   border:none;
+
+}
+
+
+input[type="button"]{
+    background-color:rgb(24, 156, 24);
+    width: 230px;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    border: 5px;
+    font-family: Arial;
+    border:none;
+ 
+ }
+
+ #fr{
+    width:380px;
+   }
+ 
+
+ /*  partie android..................................................*/
+
+ @media  ( max-width: 375px){   
+     body{font-size: 2em;
+        width:375px;
+        height:812px;
+        margin: auto;
+        padding: auto;
+    }
+    img{
+        margin-bottom: 25px;
+        height: 50px;
+    
+    }
+    h2{
+        margin-left: 0%;
+        margin-right: 0%;
+        color:gray;
+        font-size: 16px;
+    
+    }
+
+    .cont-ph{
+        margin-top: 50px;
+        margin-left: 50px;
+        float: left;
+        font-size: 1px;
+    }
+
+    .phrs{
+        font-size:15px;
+        margin-top: -30px;
+    }
+
+    .txt{
+        margin-right: 47px;
+        margin-top: 40px;
+        padding-top: 30px;
+        float: right;
+       
+       
+       
+    }
+    .login{
+        margin-left: 20px;
+        margin-top: -30px;
+        padding-top: 15px;
+        font-size: 20px;
+        background-color: white;
+        width: 300px;
+        height: 325px;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
+    }
+
+    
+input{
+    text-align: left;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 6px;
+    width: 255px;
+    height: 40px;
+}
+    
+p{ 
+    font-size:15px;
+}
+  
+ hr{
+   width:297px;}
+
+#fr{
+ width:300px;
+}
+
+}

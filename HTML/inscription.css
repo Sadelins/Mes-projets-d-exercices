@@ -1,0 +1,338 @@
+body{
+    background-color:gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+.complet{
+    
+    background-color: white;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    width: 420px;
+    height: 785px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius:10px;
+     
+    
+}
+
+@keyframes bouge{
+    from{
+        rotate: 3deg
+        
+    }
+
+    50%{
+        rotate: -3deg
+    }
+    to{
+        rotate: 0deg
+    }
+}
+
+
+@keyframes bouge2{
+    from{
+        rotate: 3deg
+        
+    }
+
+    50%{
+        rotate: -3deg
+    }
+    to{
+        rotate: 0deg
+    }
+}
+
+
+@keyframes bouge3{
+    from{
+        rotate: 3deg
+        
+    }
+
+    50%{
+        rotate: -3deg
+    }
+    to{
+        rotate: 0deg
+    }
+}
+
+@keyframes bouge4{
+    from{
+        rotate: 3deg
+        
+    }
+
+    50%{
+        rotate: -3deg
+    }
+    to{
+        rotate: 0deg
+    }
+}
+
+
+@keyframes bouge5{
+    from{
+        rotate: 3deg
+        
+    }
+
+    50%{
+        rotate: -3deg
+    }
+    to{
+        rotate: 0deg
+    }
+}
+#info{
+    color:white;
+    background-color:red;
+    padding: 4px;
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: 7px;
+    display:none;
+}
+
+
+span{
+    float:right;
+    margin-right:20px;
+    margin-top: 15px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-tag{
+    height: 15px;
+    width:15px;
+    margin-left: 10px;
+    
+}
+
+
+b{
+    color: black;
+    font-size: 32px;
+}
+
+b:hover{
+    background-color:red;
+    font-size: 12px;
+    color: white;
+    border-radius:20px;
+    padding: 10px;
+}
+
+
+.genre{
+     
+    border: solid gainsboro 2px;
+    border-radius:2px;
+    width:100px;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+
+.genre-per{
+     
+    border: solid gainsboro 2px;
+    border-radius:2px;
+    width:140px;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
+
+hr{
+    width:432px;
+    margin-left:-15px;
+}
+input[type="radio"]{
+    margin-left: 20px;
+}
+
+input[type="forename"],input[type="name"],input[type="text"],input[type="password"]{
+    border-radius: 1,5px;
+    width:300px;
+}
+
+input[type="forename"],input[type="name"]{
+    width:190px;
+}
+input[type="text"],input[type="password"]{
+    
+    width:395px;
+}
+input[type="submit"]{
+    background-color:rgb(37, 192, 37);
+    font-size:20px;
+    color:white;
+    border-radius:5px;
+    width:220px;
+    height:45px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border: solid gainsboro 2px;
+    cursor: pointer;
+    
+}
+.radio{
+    display: flex;
+}
+
+.header{
+ color: red
+}
+
+input{
+    padding-top:10px;
+    padding-bottom:10px;
+    border: solid rgb(71, 69, 69) 2px;
+    border-radius:3px;
+    background-color: rgb(206, 202, 202);
+   
+}
+
+::-webkit-scrollbar{
+    background: rgba(26, 21, 21, 0.616);
+}
+.boitecap{
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    border: solid 0.1px rgba(94, 91, 91, 0.274);
+    display: flex;
+}
+
+.boitecap p{
+margin-left: 20px
+}
+#jhg{
+    width: 40px;
+    height: 40px;
+    border: solid 0.1px rgba(94, 91, 91, 0.274);
+    cursor: pointer;
+}
+
+
+input::placeholder{
+    color:grey;
+    font-size:15px;
+}
+select{
+    border: solid gainsboro 2px;
+    border-radius:2px;
+    width:125px;
+    margin-right: 10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+  
+
+}
+.boite{
+    margin-top: 2%;
+    margin-left: 36%;
+    padding-left: 20px;
+}
+
+.fg{
+    margin-top: 7px;
+    font-size:17px;
+    
+}
+
+#sinscrire{
+    font-size:25px;
+    color:black;
+    margin-bottom:6px
+}
+
+p{
+    color:gray;
+    line-height: 19px;
+    
+}
+
+#hyr{
+margin-top:-10px;
+}
+
+label{
+    
+    color:gray;
+}
+
+code{
+    color: red;
+}
+
+.boite-capch{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.473);
+    width:250px;
+    height: 40%;
+    top: 420px;
+    left: 400px;
+    padding: 20px;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bolder;
+    display:none;
+    animation: capth 1s ;
+}
+
+@keyframes capth {
+    from{
+        top: 300px;
+        opacity: 0;
+    }
+
+    to{
+        top: 420px;
+        opacity: 1;
+    }
+}
+
+
+   
+.boite-capch p{
+    text-align: center;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+.boite-capch input[type="text"]{
+ width: 190px;
+}
+
+.boite-capch form h3{
+    background-color: white;
+    color:black;
+    width:120px;
+    padding:20px;
+    margin-left:45px;
+}
+
+.boite-capch input[type="submit"]{
+    margin-top:20px;
+    width: 90px;
+   }
